@@ -1,0 +1,27 @@
+int a = 7;
+int b = 10;
+
+if (a == 0 || b == 10 || a+b == 10) {
+  println("Success!");
+} else {
+  println("Failure!");
+}
+
+
+int min = 5;
+int max = 6;
+
+if (min + max > 10 && (min <= 5 || max <= 5) ) {
+  println("Success!");
+}
+
+
+int x = 21;
+int y = 7;
+int z = 2;
+
+if (x+y+z == 30 && (x != 10 && x != 20 && x != 30) && (y != 10 && y != 20 && y != 30) && (z != 10 && z != 20 && z != 30) ) {
+  println("Success!");
+} else {
+  println("Failure!");
+}
